@@ -9,10 +9,12 @@ catalog: true
 tags:
     - java
 ---
->手势在用户交互中有着举足轻重的作用，这篇文字简单的介绍了iOS中的手势，并通过手势对控件进行变形处理。
+
+>我就不信改不好
 
 
 #各种输入
+
 输入有多组数据，没有说明输入几组数据，也没有截止符，每组数据占一行：
 Scanner s=new Scanner(System.in);
 while(s.hasnext()){//判断是否数据结束
