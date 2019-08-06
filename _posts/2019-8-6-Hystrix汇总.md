@@ -47,8 +47,8 @@ Feign是Netflix开发的声明式、模板化的HTTP客户端， Feign可以帮�
 具体实现：  
 Feign使用Hystrix  
 
->yml：
-feign:
+yml：
+>feign:
   hystrix:
     enabled: true
 
@@ -67,8 +67,8 @@ Hystrix Dashboard
 Delay：控制服务器上轮询监控信息的延迟时间。  
 Title：该参数可以展示合适的标题。  
 
->application.yml ：
-management:
+application.yml ：
+>management:
   endpoints:
     web:
       exposure:
