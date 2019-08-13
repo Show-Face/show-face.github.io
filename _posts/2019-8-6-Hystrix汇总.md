@@ -13,7 +13,11 @@ tags:
 
 >
 
-
+spring-cloud-starter-hystrix      Hystrix，Feign是基于Hystrix的  
+spring-cloud-starter-feign   Feign依赖，声明式开发  
+spring-cloud-starter-eureka  
+spring-boot-starter-web  
+  
 服务降级（Fallback）  
 资源隔离  
 主要通过线程池来实现资源隔离。通常在使用的时候我们会根据调用的远程服务划分出多个线程池。  
